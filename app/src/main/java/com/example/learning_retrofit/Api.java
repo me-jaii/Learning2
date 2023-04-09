@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface Api {
 
-    String BASE_URL = "https://simplifiedcoding.net/demos/marvel";
+    String BASE_URL = "https://simplifiedcoding.net/demos/";
 
     @GET("marvel")
     Call<List<Results>> getsuperHeroes();
